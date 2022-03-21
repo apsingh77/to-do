@@ -11,9 +11,10 @@
 </head>
 <body>
         <div class="container" >
-             
+
             <div class="col-sm-6" style="margin-left:25%">
             <h3>Login form</h3> 
+            <form action ="login_save.php" method="post">
               <div class="form-group">
             <label for="username">Username:</label>
             <input type="username" class="form-control" id="username" placeholder="Enter username" name="username">
@@ -21,7 +22,7 @@
 
             <div class="form-group">
                 <label for="password">Password:</label>
-                <input type="password" class="form-control" id="pass" placeholder="enter password">        
+                <input type="password" class="form-control" id="pass" placeholder="enter password" name="password">        
             </div>
             <button type="submit" class="btn btn-default">Submit</button>
             </form>    
